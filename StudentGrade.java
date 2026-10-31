@@ -25,9 +25,9 @@ public class StudentGrade {
         for (int student = 0; student <StudentNumber; student++) {
             System.out.println("Student " + (student + 1));
         for (int subject = 0; subject < SubjectNumber; subject++) {
-              System.out.print("Enter score for subject " + (subject + 1) + " ");
-                        
+              System.out.print("Enter score for subject " + (subject + 1) + " ");                        
             int score = input.nextInt();
+            
         if (score < 0 && score > 100) {
             System.out.println("Invalid score!");
             System.out.print("Enter a score between 0 and 100: ");
@@ -41,6 +41,6 @@ public class StudentGrade {
     }
   }
 
-      
+
     
 
